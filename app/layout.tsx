@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
-export const fontSans = Be_Vietnam_Pro({
+const fontSans = Be_Vietnam_Pro({
   subsets: ["latin"],
   variable: "--font-sans",
   weight: ["300", "400", "500", "600", "700"],
